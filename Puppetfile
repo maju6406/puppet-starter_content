@@ -37,6 +37,3 @@ mod 'herculesteam-augeasproviders_ssh', '2.5.0'
 mod 'liamjbennett-win_facts', '0.0.2'
 
 # Module Content from git
-
-mod 'autosign_example',
-  :git => 'https://github.com/puppetlabs/puppet-vro-autosign_example'
