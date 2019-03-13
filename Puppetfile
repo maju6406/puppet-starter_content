@@ -35,5 +35,6 @@ mod 'stahnma-epel', '1.3.0'
 mod 'herculesteam-augeasproviders_core', '2.1.3'
 mod 'herculesteam-augeasproviders_ssh', '2.5.0'
 mod 'liamjbennett-win_facts', '0.0.2'
+mod 'tspy-code_deploy', '1.0.4'
 
 # Module Content from git
