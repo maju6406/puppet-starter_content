@@ -13,8 +13,10 @@ class profile::iis {
     ensure => present,
   }
 
-  iis::manage_site { 'Default Web Site':
-    ensure => absent,
+  # Delete the default website to prevent a port binding conflict.
+  iis_site {'Default Web Site':
+    ensure  => absent,
+    require => Windowsfeature[$iis_features],
   }
 
 }

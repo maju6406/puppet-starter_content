@@ -21,11 +21,11 @@ mod 'puppetlabs-powershell', '1.0.6'
 mod 'puppetlabs-registry', '1.1.3'
 mod 'puppetlabs-inifile', '1.6.0'
 mod 'puppetlabs-puppetserver_gem', '0.2.0'
+mod 'puppetlabs-iis', '4.5.0'
 
 # Forge Community Modules
 
 mod 'crayfishx-firewalld', '3.1.4'
-mod 'puppet-iis', '2.0.2'
 mod 'puppet-staging', '2.0.1'
 mod 'puppet-windows_firewall', '1.0.3'
 mod 'puppet-windowsfeature', '2.0.0'
