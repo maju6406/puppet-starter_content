@@ -21,6 +21,7 @@ mod 'puppetlabs-powershell', '1.0.6'
 mod 'puppetlabs-registry', '1.1.3'
 mod 'puppetlabs-inifile', '1.6.0'
 mod 'puppetlabs-puppetserver_gem', '0.2.0'
+mod 'puppetlabs-ntp', '8.1.0'
 
 # Forge Community Modules
 
