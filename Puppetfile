@@ -37,9 +37,9 @@ mod 'herculesteam-augeasproviders_core', '2.1.3'
 mod 'herculesteam-augeasproviders_ssh', '2.5.0'
 mod 'liamjbennett-win_facts', '0.0.2'
 mod 'tspy-code_deploy', '1.0.4'
+mod 'danzilio-report_all_the_things', '0.1.0'
 
 # Module Content from git
 mod 'beersy-newreliclogs', 
   :git    => 'https://github.com/maju6406/newreliclogs.git',
   :branch => 'master'
-mod 'danzilio-report_all_the_things', '0.1.0'
