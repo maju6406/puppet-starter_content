@@ -19,7 +19,7 @@ mod 'puppetlabs-stdlib', '6.1.0'
 mod 'puppetlabs-concat', '2.2.0'
 mod 'puppetlabs-powershell', '1.0.6'
 mod 'puppetlabs-registry', '1.1.3'
-mod 'puppetlabs-inifile', '1.6.0'
+mod 'puppetlabs-inifile', '4.0.0'
 mod 'puppetlabs-puppetserver_gem', '0.2.0'
 mod 'puppetlabs-ntp', '8.1.0'
 
@@ -42,3 +42,4 @@ mod 'tspy-code_deploy', '1.0.4'
 mod 'beersy-newreliclogs', 
   :git    => 'https://github.com/maju6406/newreliclogs.git',
   :branch => 'master'
+mod 'danzilio-report_all_the_things', '0.1.0'
