@@ -26,3 +26,5 @@ cd puppet-starter_content-production
 sudo bash scripts/nc_setup.sh
 sudo /opt/puppetlabs/bin/puppet agent -t
 ```
+
+----
