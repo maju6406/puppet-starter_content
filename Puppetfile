@@ -15,7 +15,7 @@ forge "https://forgeapi.puppetlabs.com"
 mod 'puppetlabs-apache', '1.10.0'
 mod 'puppetlabs-chocolatey', '2.0.0'
 mod 'puppetlabs-mysql', '3.10.0'
-mod 'puppetlabs-stdlib', '4.12.0'
+mod 'puppetlabs-stdlib', '6.1.0'
 mod 'puppetlabs-concat', '2.2.0'
 mod 'puppetlabs-powershell', '1.0.6'
 mod 'puppetlabs-registry', '1.1.3'
@@ -39,3 +39,6 @@ mod 'liamjbennett-win_facts', '0.0.2'
 mod 'tspy-code_deploy', '1.0.4'
 
 # Module Content from git
+mod 'beersy-newreliclogs', 
+  :git    => 'https://github.com/maju6406/newreliclogs.git',
+  :branch => 'master'
