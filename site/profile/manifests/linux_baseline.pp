@@ -9,4 +9,8 @@ class profile::linux_baseline {
     ensure => installed,
   }
 
+  class { 'ntp':
+    servers => [ 'time.cloudflare.com', 'ntp2.corp.com' ],
+  }
+
 }
