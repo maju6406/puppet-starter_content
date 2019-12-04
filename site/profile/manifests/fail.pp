@@ -2,7 +2,7 @@
 class profile::fail {
 
   file { 'Create a nested folder'
-    path   => '/opt/puppetlabs/this/nested/path/doesnt/exist'
+    path   => '/opt/puppetlabs/this/nested/path/doesnt/exist',
     ensure => 'directory'
   }
   
