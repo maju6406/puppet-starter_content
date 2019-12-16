@@ -11,7 +11,7 @@ class profile::puppet_server_metrics {
     puppetdb_list          => ['puppet.vm'],
   }
 
-  class { 'puppet_metrics_dashboard::profile::master::postgres_access':
-    telegraf_host => 'puppet.vm',
-  }
+#  class { 'puppet_metrics_dashboard::profile::master::postgres_access':
+#    telegraf_host => 'puppet.vm',
+#  }
 }
