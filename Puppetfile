@@ -46,7 +46,7 @@ mod 'tspy-code_deploy', '1.0.4'
 mod 'danzilio-report_all_the_things', '0.1.0'
 #mod 'puppetlabs-splunk_hec', '0.7.1'
 #mod 'puppetlabs-puppet_metrics_dashboard', '2.0.1'
-mod 'puppetlabs-puppet_metrics_collector', 
+mod 'puppetlabs-puppet_metrics_dashboard', 
   :git    => 'https://github.com/maju6406/puppet_metrics_dashboard.git',
   :branch => 'master'
 
