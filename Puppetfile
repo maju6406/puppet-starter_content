@@ -25,12 +25,9 @@ mod 'puppetlabs-ntp', '8.1.0'
 mod 'puppetlabs-apt', '7.3.0'
 mod 'puppet-grafana', '6.1.0'
 mod 'puppet-telegraf', '2.1.0'
-#mod 'puppetlabs-puppet_metrics_collector', '5.3.0'
+mod 'puppetlabs-puppet_metrics_collector', '5.3.0'
 
 # Module Content from git
-mod 'puppetlabs-puppet_metrics_collector', 
-  :git    => 'https://github.com/maju6406/puppet_metrics_dashboard.git',
-  :branch => 'master'
 
 # Forge Community Modules
 
@@ -48,7 +45,10 @@ mod 'liamjbennett-win_facts', '0.0.2'
 mod 'tspy-code_deploy', '1.0.4'
 mod 'danzilio-report_all_the_things', '0.1.0'
 #mod 'puppetlabs-splunk_hec', '0.7.1'
-mod 'puppetlabs-puppet_metrics_dashboard', '2.0.1'
+#mod 'puppetlabs-puppet_metrics_dashboard', '2.0.1'
+mod 'puppetlabs-puppet_metrics_collector', 
+  :git    => 'https://github.com/maju6406/puppet_metrics_dashboard.git',
+  :branch => 'master'
 
 # Module Content from git
 mod 'beersy-puppet2newrelic', 
