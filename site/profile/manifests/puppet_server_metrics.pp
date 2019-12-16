@@ -7,6 +7,7 @@ class profile::puppet_server_metrics {
     consume_graphite       => true,
     configure_telegraf     => true,
     enable_telegraf        => true,
+    enable_chronograf      => true,
     master_list            => ['puppet.vm'],
     puppetdb_list          => ['puppet.vm'],
   }
