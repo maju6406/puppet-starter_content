@@ -39,6 +39,7 @@ mod 'liamjbennett-win_facts', '0.0.2'
 mod 'tspy-code_deploy', '1.0.4'
 mod 'danzilio-report_all_the_things', '0.1.0'
 #mod 'puppetlabs-splunk_hec', '0.7.1'
+mod 'puppetlabs-puppet_metrics_dashboard', '2.0.1'
 
 # Module Content from git
 mod 'beersy-puppet2newrelic', 
