@@ -22,6 +22,9 @@ mod 'puppetlabs-registry', '1.1.3'
 mod 'puppetlabs-inifile', '4.0.0'
 mod 'puppetlabs-puppetserver_gem', '0.2.0'
 mod 'puppetlabs-ntp', '8.1.0'
+mod 'puppetlabs-apt', '7.3.0'
+mod 'puppet-grafana', '6.1.0'
+mod 'puppet-telegraf', '2.1.0'
 
 # Forge Community Modules
 
