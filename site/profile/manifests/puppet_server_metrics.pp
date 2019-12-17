@@ -2,7 +2,7 @@
 class profile::puppet_server_metrics {
 
   class { 'puppet_metrics_dashboard':
-    add_dashboard_examples => true,
+#    add_dashboard_examples => true,
     influxdb_database_name => ['puppet_metrics','telegraf','graphite'],
     consume_graphite       => true,
     configure_telegraf     => true,
